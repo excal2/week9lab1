@@ -29,7 +29,7 @@
 			  outcome = 'pc wins';
 									}
 			else if(my_move == 'scissor') {
-			  outcome = 'you wi';
+			  outcome = 'you win';
 										}
 				}
 		else if(players_move == 'paper') {
