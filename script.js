@@ -62,3 +62,35 @@
 			
 	}
 		
+		
+function Bottles() {
+		for(i=99;i>=2;i=i-1){
+			document.getElementById("lyrics1").innerHTML +=(i+ " bottles of beer on a wall,<br />");
+			document.getElementById("lyrics1").innerHTML +=(i+ " bottles of beer,<br />");
+			document.getElementById("lyrics1").innerHTML +=("Take one down pass it around,<br />");
+			if(i>2){
+				document.getElementById("lyrics1").innerHTML +=((i-1)+ " bottles of beer on a wall.<br />");
+				document.getElementById("lyrics1").innerHTML +=(" "+"<br />");
+			}
+			else {
+				document.getElementById("lyrics1").innerHTML +=((i-1)+ " bottle of beer on a wall.<br />");
+				document.getElementById("lyrics1").innerHTML +=(" "+"<br />");
+			document.getElementById("lyrics1").innerHTML +=("1 bottle of beer on a wall,<br />");
+			document.getElementById("lyrics1").innerHTML +=("1 bottle of beer,<br />");
+			document.getElementById("lyrics1").innerHTML +=("Take one down pass it around,<br />");
+			document.getElementById("lyrics1").innerHTML +=("No more bottles of beer on the wall.<br />");
+			document.getElementById("lyrics1").innerHTML +=(" "+"<br />");
+			document.getElementById("lyrics1").innerHTML +=("No more bottles of beer on the wall,<br />");
+			document.getElementById("lyrics1").innerHTML +=("No more bottles of beer,<br />");
+			document.getElementById("lyrics1").innerHTML +=("Go to the store and buy some more,<br />");
+			document.getElementById("lyrics1").innerHTML +=("99 bottles of beer on the wall.<br />");
+			}
+			
+			
+		}
+			
+			
+		//System.out.println("0 bottles of beer,,");
+		//System.out.println("Go to the store and buy some more,");
+		//System.out.println("99 bottles of beer on the wall.");
+	}
